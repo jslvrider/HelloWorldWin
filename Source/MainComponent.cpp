@@ -40,9 +40,9 @@ void MainComponent::paint (juce::Graphics& g)
     // This will draw over the top of the openGL background.
     g.fillAll (getLookAndFeel().findColour(juce::ResizableWindow::backgroundColourId));
 
-    g.setFont(juce::Font(32.0f));
-    g.setColour(juce::Colours::white);
-    g.drawText("Hello World", getLocalBounds(), juce::Justification::centred,true);
+    g.setFont(juce::Font(48.0f));
+    g.setColour(juce::Colours::red);
+    g.drawText("Hello World new Butthole", getLocalBounds(), juce::Justification::centred,true);
 
 }
 
